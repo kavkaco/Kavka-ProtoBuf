@@ -8,7 +8,7 @@ import (
 	connect "connectrpc.com/connect"
 	context "context"
 	errors "errors"
-	v1 "github.com/kavkaco/Kavka-Core/protobuf/gen/go/protobuf/chat/v1"
+	v1 "github.com/kavkaco/Kavka-ProtoBuf/gen/go/protobuf/chat/v1"
 	http "net/http"
 	strings "strings"
 )
