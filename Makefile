@@ -1,4 +1,6 @@
 generate:
+	buf format -w 
+	buf lint
 	buf generate --path ./protobuf
 
 publish:
