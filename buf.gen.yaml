@@ -7,19 +7,19 @@ managed:
 plugins:
     # Generate GoLang
     - local: protoc-gen-go
-      out: protobuf/gen/go
+      out: ./gen/go
       opt: paths=source_relative
     - local: protoc-gen-connect-go
-      out: protobuf/gen/go
+      out: ./gen/go
       opt: paths=source_relative
     # Generate TypeScript
     - local: protoc-gen-es
-      out: protobuf/gen/es
+      out: ./gen/es
       opt:
           - target=ts
           - import_extension=.ts
     - local: protoc-gen-connect-es
-      out: protobuf/gen/es
+      out: ./gen/es
       opt:
           - target=ts
           - import_extension=.ts
